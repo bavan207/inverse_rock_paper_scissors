@@ -1,0 +1,48 @@
+
+h2{
+    color:rgb(209, 204, 180);
+}
+body{
+    background-color:aliceblue;
+}
+span{
+    color:aquamarine;
+}
+.card{
+    border:3px solid black;
+    border-radius: 16px;
+    width: 320px;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    background-color:darkgrey;
+}
+.card:hover {
+    background-color:darkcyan;
+    transform: scale(1.1,1.1);
+  }
+button{
+    background-color:rgb(142, 193, 237) ;
+    border:1px solid black;
+    border-radius: 16px;
+    width: 70px;
+    padding: 5px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+}
+.noSelect {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noSelect:focus {
+    outline: none !important;
+}
